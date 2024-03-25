@@ -1,0 +1,96 @@
+body{
+background-color: rgb(19, 17, 17);
+
+}
+
+
+
+.sidebar {
+
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+
+
+}
+
+.btn{
+
+width: 5cm;
+height: 1.5cm;
+margin: 0.7%;
+text-align: left;
+margin-left: 1%;
+padding-right: 3%;
+padding-left: 2%;
+border-radius: 999px;
+width: fit-content;
+border: solid 2px rgb(56, 55, 55);
+background-color: rgb(19, 17, 17) ;
+color: aliceblue;
+}
+
+
+.btn:hover{
+    transition: 0.4s;
+    border-radius: 999px;
+    width: fit-content;
+border: solid 2px rgb(56, 55, 55);
+background-color: rgb(163, 156, 151) ;
+color: rgb(50, 52, 53);
+}
+
+.brilho{
+    width: 6cm;
+    height: 1.5cm;
+    text-align: center;
+    border-radius: 999px;
+    margin: 0.7%;
+
+    border: rgb(163, 156, 151);
+    background-color: rgb(163, 156, 151);
+    color: aliceblue;
+}
+
+.brilho:hover{
+    transition: 0.3s;
+    background-color: rgb(56, 55, 55);
+}
+
+.perfil img{
+    border-radius: 9999px;
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+}
+
+.perfil button{
+background-color: transparent;
+display: flex;
+align-items: center;
+align-content: center;
+margin-top: 13%;
+margin-left: 2%;
+border-radius: 999px;
+color: aliceblue;
+border: rgb(19, 17, 17);
+padding-right: 3%;
+
+
+}
+.perfil button:hover{
+    transition: .3s;
+    background-color: rgb(56, 55, 55);
+    padding-right: 5%;
+}
+
+.arromba p{
+    color: aliceblue;
+}
+
+.mini{padding-left: 30%;}
+
+.centro{
+    
+    border: 1px rebeccapurple;
+}
